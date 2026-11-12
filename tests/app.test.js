@@ -8,7 +8,7 @@ test('GET / should return welcome message', async () => {
     const response = await request(app).get('/');
 
     assert.strictEqual(response.status, 200);
-    assert.strictEqual(response.body.message, 'Welcome to ShopEasy Lite!');
+    assert.strictEqual(response.body.message, 'Welcome to ShopEasy Lite - Version 2!');
 });
 
 test('GET /products should return all products', async () => {
