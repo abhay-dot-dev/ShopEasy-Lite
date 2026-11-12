@@ -9,7 +9,7 @@ app.use(express.json());
 // Home route
 app.get('/', (req, res) => {
     res.status(200).json({
-        message: 'Welcome to ShopEasy Lite!'
+        message: 'Welcome to ShopEasy Lite - Version 2!'
     });
 });
 
